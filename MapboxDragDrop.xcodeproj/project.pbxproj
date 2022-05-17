@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCCD6C84282D65110017745B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD6C83282D65110017745B /* AppDelegate.swift */; };
+		DCCD6C86282D65110017745B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD6C85282D65110017745B /* SceneDelegate.swift */; };
+		DCCD6C8B282D65110017745B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCD6C89282D65110017745B /* Main.storyboard */; };
+		DCCD6C8D282D65110017745B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCD6C8C282D65110017745B /* Assets.xcassets */; };
+		DCCD6C90282D65110017745B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCD6C8E282D65110017745B /* LaunchScreen.storyboard */; };
+		DCCD6C99282D658A0017745B /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = DCCD6C98282D658A0017745B /* MapboxMaps */; };
+		DCCD6CA2282D66050017745B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD6C9B282D66040017745B /* Model.swift */; };
+		DCCD6CA3282D66050017745B /* Model+Dragging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD6C9C282D66040017745B /* Model+Dragging.swift */; };
+		DCCD6CA4282D66050017745B /* TableViewController+Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD6C9E282D66050017745B /* TableViewController+Drop.swift */; };
+		DCCD6CA5282D66050017745B /* TableViewController+Drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD6C9F282D66050017745B /* TableViewController+Drag.swift */; };
+		DCCD6CA6282D66050017745B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD6CA0282D66050017745B /* TableViewController.swift */; };
+		DCCD6CA7282D66050017745B /* TableViewController+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD6CA1282D66050017745B /* TableViewController+Data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCCD6C80282D65110017745B /* MapboxDragDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapboxDragDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCD6C83282D65110017745B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCCD6C85282D65110017745B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCCD6C8A282D65110017745B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCCD6C8C282D65110017745B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCCD6C8F282D65110017745B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCCD6C91282D65110017745B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCD6C9B282D66040017745B /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DCCD6C9C282D66040017745B /* Model+Dragging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Model+Dragging.swift"; sourceTree = "<group>"; };
+		DCCD6C9E282D66050017745B /* TableViewController+Drop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableViewController+Drop.swift"; sourceTree = "<group>"; };
+		DCCD6C9F282D66050017745B /* TableViewController+Drag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableViewController+Drag.swift"; sourceTree = "<group>"; };
+		DCCD6CA0282D66050017745B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DCCD6CA1282D66050017745B /* TableViewController+Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableViewController+Data.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCCD6C7D282D65110017745B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD6C99282D658A0017745B /* MapboxMaps in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCCD6C77282D65110017745B = {
+			isa = PBXGroup;
+			children = (
+				DCCD6C82282D65110017745B /* MapboxDragDrop */,
+				DCCD6C81282D65110017745B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCCD6C81282D65110017745B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD6C80282D65110017745B /* MapboxDragDrop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCCD6C82282D65110017745B /* MapboxDragDrop */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD6C83282D65110017745B /* AppDelegate.swift */,
+				DCCD6C85282D65110017745B /* SceneDelegate.swift */,
+				DCCD6C9A282D66040017745B /* Model */,
+				DCCD6C9D282D66050017745B /* TableViewController */,
+				DCCD6C89282D65110017745B /* Main.storyboard */,
+				DCCD6C8C282D65110017745B /* Assets.xcassets */,
+				DCCD6C8E282D65110017745B /* LaunchScreen.storyboard */,
+				DCCD6C91282D65110017745B /* Info.plist */,
+			);
+			path = MapboxDragDrop;
+			sourceTree = "<group>";
+		};
+		DCCD6C9A282D66040017745B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD6C9B282D66040017745B /* Model.swift */,
+				DCCD6C9C282D66040017745B /* Model+Dragging.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCCD6C9D282D66050017745B /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD6C9E282D66050017745B /* TableViewController+Drop.swift */,
+				DCCD6C9F282D66050017745B /* TableViewController+Drag.swift */,
+				DCCD6CA0282D66050017745B /* TableViewController.swift */,
+				DCCD6CA1282D66050017745B /* TableViewController+Data.swift */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCCD6C7F282D65110017745B /* MapboxDragDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCD6C94282D65110017745B /* Build configuration list for PBXNativeTarget "MapboxDragDrop" */;
+			buildPhases = (
+				DCCD6C7C282D65110017745B /* Sources */,
+				DCCD6C7D282D65110017745B /* Frameworks */,
+				DCCD6C7E282D65110017745B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapboxDragDrop;
+			packageProductDependencies = (
+				DCCD6C98282D658A0017745B /* MapboxMaps */,
+			);
+			productName = MapboxDragDrop;
+			productReference = DCCD6C80282D65110017745B /* MapboxDragDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCCD6C78282D65110017745B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DCCD6C7F282D65110017745B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DCCD6C7B282D65110017745B /* Build configuration list for PBXProject "MapboxDragDrop" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCCD6C77282D65110017745B;
+			packageReferences = (
+				DCCD6C97282D658A0017745B /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+			);
+			productRefGroup = DCCD6C81282D65110017745B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCCD6C7F282D65110017745B /* MapboxDragDrop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCCD6C7E282D65110017745B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD6C90282D65110017745B /* LaunchScreen.storyboard in Resources */,
+				DCCD6C8D282D65110017745B /* Assets.xcassets in Resources */,
+				DCCD6C8B282D65110017745B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCCD6C7C282D65110017745B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD6CA7282D66050017745B /* TableViewController+Data.swift in Sources */,
+				DCCD6CA4282D66050017745B /* TableViewController+Drop.swift in Sources */,
+				DCCD6CA3282D66050017745B /* Model+Dragging.swift in Sources */,
+				DCCD6CA6282D66050017745B /* TableViewController.swift in Sources */,
+				DCCD6C84282D65110017745B /* AppDelegate.swift in Sources */,
+				DCCD6C86282D65110017745B /* SceneDelegate.swift in Sources */,
+				DCCD6CA2282D66050017745B /* Model.swift in Sources */,
+				DCCD6CA5282D66050017745B /* TableViewController+Drag.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCCD6C89282D65110017745B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCD6C8A282D65110017745B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCCD6C8E282D65110017745B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCD6C8F282D65110017745B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCCD6C92282D65110017745B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCCD6C93282D65110017745B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCCD6C95282D65110017745B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X6AUNVT82L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapboxDragDrop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.interactive-pioneers.MapboxDragDrop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCCD6C96282D65110017745B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X6AUNVT82L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapboxDragDrop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.interactive-pioneers.MapboxDragDrop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCCD6C7B282D65110017745B /* Build configuration list for PBXProject "MapboxDragDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCD6C92282D65110017745B /* Debug */,
+				DCCD6C93282D65110017745B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCD6C94282D65110017745B /* Build configuration list for PBXNativeTarget "MapboxDragDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCD6C95282D65110017745B /* Debug */,
+				DCCD6C96282D65110017745B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DCCD6C97282D658A0017745B /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DCCD6C98282D658A0017745B /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCCD6C97282D658A0017745B /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DCCD6C78282D65110017745B /* Project object */;
+}
